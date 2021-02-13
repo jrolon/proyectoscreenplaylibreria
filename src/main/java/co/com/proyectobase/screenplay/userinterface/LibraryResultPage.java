@@ -7,7 +7,7 @@ import net.thucydides.core.annotations.DefaultUrl;
 
 public class LibraryResultPage extends PageObject{
 
-    public static final Target First_Result_Book = Target.the("Boton de Mi Cuenta").located(By.xpath("(//a[@href=\"/producto/harry-potter-y-la-piedra-filosofal\"])[1]"));
-    public static final Target Book_Not_Found = Target.the("Boton de Mi Cuenta").located(By.xpath("//h4[contains(text(),'Lo sentimos, aún no hay productos disponibles para')]"));
+    public static final Target First_Result_Book = Target.the("Resultado de busqueda").located(By.xpath("(//a[@href=\"/producto/harry-potter-y-la-piedra-filosofal\"])[1]"));
+    public static final Target Book_Not_Found = Target.the("Libro no encontrado").located(By.xpath("//h4[contains(text(),'Lo sentimos, aún no hay productos disponibles para')]"));
 
 }

@@ -7,6 +7,6 @@ import net.thucydides.core.annotations.DefaultUrl;
 
 public class LibraryUserAccountPage extends PageObject{
 
-    public static final Target UserImage = Target.the("Boton de Mi Cuenta").located(By.xpath("//img[@class='rounded-circle']"));
-    public static final Target SearchBookInput = Target.the("Boton de Mi Cuenta").located(By.xpath("(//input[@formcontrolname=\"buscar\"])[2]"));
+    public static final Target UserImage = Target.the("Imagen de usuario").located(By.xpath("//img[@class='rounded-circle']"));
+    public static final Target SearchBookInput = Target.the("Input de busqueda de libros").located(By.xpath("(//input[@formcontrolname=\"buscar\"])[2]"));
 }

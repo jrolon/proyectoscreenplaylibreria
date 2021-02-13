@@ -8,7 +8,7 @@ import net.thucydides.core.annotations.DefaultUrl;
 @DefaultUrl("https://librerianacional.com/")
 public class LibraryBookDetailPage extends PageObject{
 
-    public static final Target Book_Cover_Image = Target.the("Boton de Mi Cuenta").located(By.xpath("//figure[@class='mb-0 p-sm-3 p-4 bg-gray-opacity']"));
+    public static final Target Book_Cover_Image = Target.the("Imagen del libro").located(By.xpath("//figure[@class='mb-0 p-sm-3 p-4 bg-gray-opacity']"));
 
 
 
