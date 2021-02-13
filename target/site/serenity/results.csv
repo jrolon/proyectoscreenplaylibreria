@@ -1,5 +1,0 @@
-"Story","Title","Result","Date","Stability","Duration (s)"
-"Login","Successful login","SUCCESS","2021-02-13T13:33:34.222-05:00[America/Bogota]","0.0","15.81"
-"Login","Failed login","SUCCESS","2021-02-13T13:33:50.036-05:00[America/Bogota]","0.0","15.93"
-"Search Book","Successful Search a Book","SUCCESS","2021-02-13T13:31:19.056-05:00[America/Bogota]","0.0","24.89"
-"Search Book","Failed Search a Book","SUCCESS","2021-02-13T13:31:43.951-05:00[America/Bogota]","0.0","15.77"
