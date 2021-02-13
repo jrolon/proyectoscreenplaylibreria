@@ -1,0 +1,277 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="5cc3e899-733a-4824-9cdc-3de7dab28d0d" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/src/main/java/co/com/proyectobase/screenplay/questions/VerifyFailedAuthentication.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/co/com/proyectobase/screenplay/questions/VerifyFailedFoundSearchBook.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/co/com/proyectobase/screenplay/questions/VerifySuccessAuthentication.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/co/com/proyectobase/screenplay/questions/VerifySuccessSearchBook.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/co/com/proyectobase/screenplay/tasks/Authenticate.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/co/com/proyectobase/screenplay/tasks/Search.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/co/com/proyectobase/screenplay/tasks/Select.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/co/com/proyectobase/screenplay/tasks/Visit.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/co/com/proyectobase/screenplay/userinterface/LibraryBookDetailPage.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/co/com/proyectobase/screenplay/userinterface/LibraryHomePage.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/co/com/proyectobase/screenplay/userinterface/LibraryLoginPage.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/co/com/proyectobase/screenplay/userinterface/LibraryResultPage.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/co/com/proyectobase/screenplay/userinterface/LibraryUserAccountPage.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/co/com/proyectobase/screenplay/util/ConstantMessageManager.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/co/com/proyectobase/screenplay/runners/SearchBookRunner.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/co/com/proyectobase/screenplay/stepdefinitions/LoginStepDefinitions.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/co/com/proyectobase/screenplay/stepdefinitions/SearchBookStepDefinitions.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/resources/features/authentication.feature" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/resources/features/searchbook.feature" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="ExternalProjectsData">
+    <projectState path="$PROJECT_DIR$">
+      <ProjectState />
+    </projectState>
+  </component>
+  <component name="ExternalProjectsManager">
+    <system id="GRADLE">
+      <state>
+        <task path="$PROJECT_DIR$">
+          <activation />
+        </task>
+        <projects_view>
+          <tree_state>
+            <expand>
+              <path>
+                <item name="" type="6a2764b6:ExternalProjectsStructure$RootNode" />
+                <item name="co.com.proyectobase.screenplay" type="f1a62948:ProjectNode" />
+              </path>
+              <path>
+                <item name="" type="6a2764b6:ExternalProjectsStructure$RootNode" />
+                <item name="co.com.proyectobase.screenplay" type="f1a62948:ProjectNode" />
+                <item name="Tasks" type="e4a08cd1:TasksNode" />
+              </path>
+              <path>
+                <item name="" type="6a2764b6:ExternalProjectsStructure$RootNode" />
+                <item name="co.com.proyectobase.screenplay" type="f1a62948:ProjectNode" />
+                <item name="Tasks" type="e4a08cd1:TasksNode" />
+                <item name="serenity bdd" type="c8890929:TasksNode$1" />
+              </path>
+            </expand>
+            <select />
+          </tree_state>
+        </projects_view>
+      </state>
+    </system>
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="ProjectId" id="1oQoR4DueM728gNmJwXwYFJaSgF" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showExcludedFiles" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/src/test/resources/features" />
+    <property name="settings.editor.selected.configurable" value="configurable.group.appearance" />
+    <property name="show.unlinked.gradle.project.popup" value="true" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CreateClassDialog.RecentsKey">
+      <recent name="co.com.proyectobase.screenplay.tasks" />
+    </key>
+    <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="co.com.proyectobase.screenplay.questions" />
+      <recent name="co.com.proyectobase.screenplay.userinterface" />
+      <recent name="co.com.proyectobase.screenplay.tasks" />
+      <recent name="co.com.proyectobase.screenplay.stepdefinitions" />
+      <recent name="co.com.proyectobase.screenplay.runners" />
+    </key>
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\rolonrolon.5\eclipse-workspace_buena\co.com.proyectobase.screenplay\src\test\resources\features" />
+      <recent name="C:\Users\rolonrolon.5\eclipse-workspace_buena\co.com.proyectobase.screenplay\src\main\java\co\com\proyectobase\screenplay\userinterface" />
+      <recent name="C:\Users\rolonrolon.5\eclipse-workspace_buena\co.com.proyectobase.screenplay\src\test\java\co\com\proyectobase\screenplay\stepdefinitions" />
+    </key>
+  </component>
+  <component name="RunManager" selected="Gradle.co.com.proyectobase.screenplay [aggregate]">
+    <configuration name="AuthenticationRunner" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+      <ExternalSystemSettings>
+        <option name="executionName" />
+        <option name="externalProjectPath" value="$PROJECT_DIR$" />
+        <option name="externalSystemIdString" value="GRADLE" />
+        <option name="scriptParameters" value="--tests &quot;co.com.proyectobase.screenplay.runners.AuthenticationRunner&quot;" />
+        <option name="taskDescriptions">
+          <list />
+        </option>
+        <option name="taskNames">
+          <list>
+            <option value=":cleanTest" />
+            <option value=":test" />
+          </list>
+        </option>
+        <option name="vmOptions" />
+      </ExternalSystemSettings>
+      <GradleScriptDebugEnabled>false</GradleScriptDebugEnabled>
+      <method v="2" />
+    </configuration>
+    <configuration name="RunnerTags" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+      <ExternalSystemSettings>
+        <option name="executionName" />
+        <option name="externalProjectPath" value="$PROJECT_DIR$" />
+        <option name="externalSystemIdString" value="GRADLE" />
+        <option name="scriptParameters" value="--tests &quot;co.com.proyectobase.screenplay.runners.RunnerTags&quot;" />
+        <option name="taskDescriptions">
+          <list />
+        </option>
+        <option name="taskNames">
+          <list>
+            <option value=":cleanTest" />
+            <option value=":test" />
+          </list>
+        </option>
+        <option name="vmOptions" />
+      </ExternalSystemSettings>
+      <GradleScriptDebugEnabled>false</GradleScriptDebugEnabled>
+      <method v="2" />
+    </configuration>
+    <configuration name="SearchBookRunner" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+      <ExternalSystemSettings>
+        <option name="executionName" />
+        <option name="externalProjectPath" value="$PROJECT_DIR$" />
+        <option name="externalSystemIdString" value="GRADLE" />
+        <option name="scriptParameters" value="--tests &quot;co.com.proyectobase.screenplay.runners.SearchBookRunner&quot;" />
+        <option name="taskDescriptions">
+          <list />
+        </option>
+        <option name="taskNames">
+          <list>
+            <option value=":cleanTest" />
+            <option value=":test" />
+          </list>
+        </option>
+        <option name="vmOptions" />
+      </ExternalSystemSettings>
+      <GradleScriptDebugEnabled>false</GradleScriptDebugEnabled>
+      <method v="2" />
+    </configuration>
+    <configuration name="co.com.proyectobase.screenplay [aggregate]" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+      <ExternalSystemSettings>
+        <option name="executionName" />
+        <option name="externalProjectPath" value="$PROJECT_DIR$" />
+        <option name="externalSystemIdString" value="GRADLE" />
+        <option name="scriptParameters" />
+        <option name="taskDescriptions">
+          <list />
+        </option>
+        <option name="taskNames">
+          <list>
+            <option value="aggregate" />
+          </list>
+        </option>
+        <option name="vmOptions" />
+      </ExternalSystemSettings>
+      <GradleScriptDebugEnabled>true</GradleScriptDebugEnabled>
+      <method v="2" />
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Gradle.co.com.proyectobase.screenplay [aggregate]" />
+        <item itemvalue="Gradle.AuthenticationRunner" />
+        <item itemvalue="Gradle.SearchBookRunner" />
+        <item itemvalue="Gradle.RunnerTags" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="ServiceViewManager">
+    <option name="viewStates">
+      <list>
+        <serviceView>
+          <treeState>
+            <expand />
+            <select />
+          </treeState>
+        </serviceView>
+      </list>
+    </option>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="5cc3e899-733a-4824-9cdc-3de7dab28d0d" name="Default Changelist" comment="" />
+      <created>1613228163020</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1613228163020</updated>
+    </task>
+    <servers />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="574" y="122" key="#com.intellij.ide.util.MemberChooser" timestamp="1613231728452">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="574" y="122" key="#com.intellij.ide.util.MemberChooser/0.0.1536.824@0.0.1536.824" timestamp="1613231728452" />
+    <state x="499" y="160" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog" timestamp="1613235794635">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="499" y="160" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog/0.0.1536.824@0.0.1536.824" timestamp="1613235794635" />
+    <state width="1493" height="70" key="GridCell.Tab.0.bottom" timestamp="1613241407347">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state width="1493" height="70" key="GridCell.Tab.0.bottom/0.0.1536.824@0.0.1536.824" timestamp="1613241407347" />
+    <state width="1493" height="70" key="GridCell.Tab.0.center" timestamp="1613241407347">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state width="1493" height="70" key="GridCell.Tab.0.center/0.0.1536.824@0.0.1536.824" timestamp="1613241407347" />
+    <state width="1493" height="70" key="GridCell.Tab.0.left" timestamp="1613241407347">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state width="1493" height="70" key="GridCell.Tab.0.left/0.0.1536.824@0.0.1536.824" timestamp="1613241407347" />
+    <state width="1493" height="70" key="GridCell.Tab.0.right" timestamp="1613241407347">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state width="1493" height="70" key="GridCell.Tab.0.right/0.0.1536.824@0.0.1536.824" timestamp="1613241407347" />
+    <state width="1493" height="2" key="GridCell.Tab.1.bottom" timestamp="1613240739086">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state width="1493" height="2" key="GridCell.Tab.1.bottom/0.0.1536.824@0.0.1536.824" timestamp="1613240739086" />
+    <state width="1493" height="2" key="GridCell.Tab.1.center" timestamp="1613240739086">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state width="1493" height="2" key="GridCell.Tab.1.center/0.0.1536.824@0.0.1536.824" timestamp="1613240739086" />
+    <state width="1493" height="2" key="GridCell.Tab.1.left" timestamp="1613240739086">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state width="1493" height="2" key="GridCell.Tab.1.left/0.0.1536.824@0.0.1536.824" timestamp="1613240739086" />
+    <state width="1493" height="2" key="GridCell.Tab.1.right" timestamp="1613240739086">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state width="1493" height="2" key="GridCell.Tab.1.right/0.0.1536.824@0.0.1536.824" timestamp="1613240739086" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/co/com/proyectobase/screenplay/questions/VerifyFailedFoundSearchBook.java</url>
+          <line>24</line>
+          <option name="timeStamp" value="8" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
+    <watches-manager>
+      <configuration name="Remote">
+        <watch expression="Text.of(Error_Message).viewedBy(actor).asString()" language="JAVA" />
+      </configuration>
+    </watches-manager>
+  </component>
+</project>

@@ -1,0 +1,211 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN"
+        "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
+    <title>Screenshots</title>
+
+<link rel="shortcut icon" type="image/x-icon" href="/favicon.ico">
+<link rel="apple-touch-icon" sizes="57x57" href="/apple-icon-57x57.png">
+<link rel="apple-touch-icon" sizes="60x60" href="/apple-icon-60x60.png">
+<link rel="apple-touch-icon" sizes="72x72" href="/apple-icon-72x72.png">
+<link rel="apple-touch-icon" sizes="76x76" href="/apple-icon-76x76.png">
+<link rel="apple-touch-icon" sizes="114x114" href="/apple-icon-114x114.png">
+<link rel="apple-touch-icon" sizes="120x120" href="/apple-icon-120x120.png">
+<link rel="apple-touch-icon" sizes="144x144" href="/apple-icon-144x144.png">
+<link rel="apple-touch-icon" sizes="152x152" href="/apple-icon-152x152.png">
+<link rel="apple-touch-icon" sizes="180x180" href="/apple-icon-180x180.png">
+<link rel="icon" type="image/png" sizes="192x192"  href="/android-icon-192x192.png">
+<link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png">
+<link rel="icon" type="image/png" sizes="96x96" href="/favicon-96x96.png">
+<link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png">
+<meta name="msapplication-TileColor" content="#ffffff">
+<meta name="msapplication-TileImage" content="/ms-icon-144x144.png">
+<meta name="theme-color" content="#ffffff">
+<link rel="stylesheet" href="font-awesome/css/font-awesome.min.css">
+<!--[if IE 7]>
+<link rel="stylesheet" href="font-awesome/css/font-awesome-ie7.min.css">
+<![endif]--><!-- JQuery -->
+<script type="text/javascript" src="scripts/jquery-1.11.1.min.js"></script><!-- Bootstrap -->
+<link href="bootstrap/css/bootstrap.min.css" rel="stylesheet">
+<script src="bootstrap/js/bootstrap.min.js"></script><link rel="stylesheet" href="css/core.css"/>
+<link rel="stylesheet" href="css/link.css"/>
+<link type="text/css" media="screen" href="css/screen.css" rel="Stylesheet"/><!-- Nivo Slider -->
+<link rel="stylesheet" href="nivo-slider/3.2/nivo-slider.css" type="text/css" media="screen" />
+<link rel="stylesheet" href="nivo-slider/3.2/themes/default/default.css" type="text/css" media="screen" />
+<script src="nivo-slider/3.2/jquery.nivo.slider.pack.js" type="text/javascript"></script>
+
+    <script type="text/javascript">
+
+        function getUrlVars() {
+            var vars = {};
+            var parts = window.location.href.replace(/[?&]+([^=&]+)=([^&]*)/gi, function (m, key, value) {
+                vars[key] = value;
+            });
+            return vars;
+        }
+
+        var screenshotIndex = getUrlVars()["screenshot"];
+
+        $(window).load(function () {
+            $('#slider').nivoSlider({
+                startSlide: screenshotIndex,
+                effect: 'fade',
+                animSpeed: 200,
+                manualAdvance: true
+            });
+        });
+
+        $(window).keydown(function(e) {
+            switch(e.which) {
+                case 37:
+                    $('a.nivo-prevNav').click();
+                    break;
+                case 39:
+                    $('a.nivo-nextNav').click();
+                    break;
+            }
+        });
+    </script>
+
+</head>
+
+<body>
+<div id="topheader">
+    <div id="topbanner">
+        <div id="logo"><a href="index.html"><img src="images/serenity-logo.png" border="0"/></a></div>
+        <div id="projectname-banner" style="float:right">
+            <span class="projectname">Demo Project using Serenity and Cucumber</span>
+        </div>
+    </div>
+</div>
+
+<div class="middlecontent">
+    <div id="contenttop">
+        <div class="middlebg">
+            <span class="breadcrumbs">
+                <a href="index.html">Home</a>
+                > <span class="truncate-40"><a
+                    href="09844568037dcb15e12f00543a260558afd8a36630fd486b17f7f16c4e443ba2.html">Search Book</a></span>
+                > <span class="truncate-60"><a
+                    href="0c96e18f95632376a9d487b2c2f7ba326ce2435b647e3463165158cb11d2f6bd.html">Successful Search a Book </a></span>
+                > Screenshots
+            </span>
+        </div>
+        <div class="rightbg"></div>
+    </div>
+
+    <div class="clr"></div>
+
+    <!--/* starts second table*/-->
+<div>
+    <ul class="nav nav-tabs" role="tablist">
+        <li class="active">
+            <a href="#"><i class="fa fa-check-square-o"></i> Overall Test Results</a>
+        </li>
+        <li >
+            <a href="capabilities.html"><i class="fa fa-book"></i> Requirements</a>
+        </li>
+        <li >
+            <a href="576946480b52ad056d6f5bddf874399c83582ecf90963cc074a14c70580e7d9f.html"><i class="fa fa-comments-o"></i> Features</a>
+        </li>
+    </ul>
+    <span class="date-and-time"><a href="build-info.html"><i class="fa fa-info-circle"></i></a> Report generated 13-02-2021 13:31</span>
+    <br style="clear:left"/>
+</div>
+
+    <div class="clr"></div>
+
+
+    <div id="contentbody">
+        <div class="titlebar">
+            <div class="story-title">
+                <table class="outcome-header">
+                    <tr>
+                        <td>
+                            <div>
+                                <h3 class="discreet-story-header">
+                                    <i class="fa fa-2x fa-comments-o"></i>
+                                    <span class="story-header-title">Search Book </span>
+                                    <span class="badge tag-badge" style="">Feature</span>
+                                </h3>
+
+                                <div class="discreet-requirement-narrative-title">
+                                <pre><code>     I as a user of the application
+     I want to search a book in the library web
+</code></pre>
+
+                                </div>
+                            </div>
+
+                        </td>
+                        <td valign="top" align="right">
+                            <p class="tag">
+                                <span class="badge tag-badge" style="background:default;"
+                                    <i class="fa fa-tag"></i>&nbsp;<a class="tagLink" style="background:default;" href="54026cc93a449e616452322c4d71bf777fe2b8b9556f4e600a061e2ce959b23e.html">Es1
+                                    (tag)</a>
+                                </span>
+                            </p>
+                        </td>
+                    </tr>
+                </table>
+            </div>
+            <div class="story-title">
+                <table class="outcome-header">
+                    <tr>
+                        <td colspan="2" class="test-title-bar">
+                            <span class="outcome-icon"><i class='fa fa-check-square-o success-icon fa-2x' title='SUCCESS'></i></span>
+                            <span class="test-case-title">
+                                <span class="success-color">Successful Search a Book
+                                    <span class="related-issue-title"></span>
+                                </span>
+                            </span>
+
+                        </td>
+                    </tr>
+                </table>
+            </div>
+        </div>
+    </div>
+
+    <div class="clr"></div>
+
+    <div class="story-title">
+        <h3>Scenario:</h3>
+        <div class="scenario">Given Jeiner go to the library web<br>When He tries to authenticate with &lt;user&gt; and &lt;password&gt;<br>When He tries to search a book with tittle &lt;booktittle&gt;<br>When He tries to select the first result<br>Then He verifies that the book is available in the library</div>
+    </div>
+
+    <div id="beforetable"></div>
+    <div id="contenttilttle">
+        <div class="slider-wrapper theme-default">
+            <div id="slider">
+                <img src="13469e066a2c99c708d0a557d5d4e864b3efa5e10a107820447d9092d4c06316.png" title="Successful Search a Book #1: {user=jrolon.05@hotmail.com, password=Jeiner01*, booktittle=Harry potter}" width="1920"/>
+                <img src="11b3868db4ae850b2116acd5a851f3a073c6138b00347dd7a61993232756f4d4.png" title="Given Jeiner go to the library web" width="1920"/>
+                <img src="3e089412f953c278b0fced4350230b42053e7aad738d3a4f17475ca8cccc1525.png" title="Jeiner opens the Library home page" width="1920"/>
+                <img src="fabfc486b4d127fa34d01af0f46b43d99ca0e61f3933255ceebd77538adfde2e.png" title="Jeiner clicks on Boton de Mi Cuenta" width="1920"/>
+                <img src="11b3868db4ae850b2116acd5a851f3a073c6138b00347dd7a61993232756f4d4.png" title="Jeiner clicks on Boton de Mi Cuenta" width="1920"/>
+                <img src="92dec7cf2862a29f6a71b53bc236d82b7c9846e1721d2a64af1108fe432da600.png" title="When He tries to authenticate with jrolon.05@hotmail.com and Jeiner01*" width="1920"/>
+                <img src="70db0ed7284aad631a798e8b099df3d38815de2657ff8cb1c4f8c3d5c493cbfb.png" title="Jeiner clicks on Boton de Mi Cuenta" width="1920"/>
+                <img src="29477628f01b6530655c4aa1b833e793d80e5ee84faad3eb65db51e10c52bf4c.png" title="Jeiner enters 'jrolon.05@hotmail.com' into Boton de Mi Cuenta" width="1920"/>
+                <img src="4c01b190ffb4b1683f7b393868797392527da8b7fa625ad1130f27002eafe046.png" title="Jeiner enters 'Jeiner01*' into Boton de Mi Cuenta" width="1920"/>
+                <img src="e6cd7963a0566f55a72a5b9ba145b47b9334e3cf6f630361e8916576e02e2b50.png" title="Jeiner clicks on Boton de Mi Cuenta" width="1920"/>
+                <img src="2cbc61e902938dfd05f0f90c7aa533b035ce4327bfb15db4c51720d097c98bde.png" title="When He tries to search a book with tittle Harry potter" width="1920"/>
+                <img src="9253765e7098a3b66838e90c279581e23d35f29bd9b7134b3667052b390d71cd.png" title="Jeiner enters 'Harry potter' into Boton de Mi Cuenta" width="1920"/>
+                <img src="ceb601fe2c08d40222b96ea4f9065b1883f592ac8cdb66bc2839d9e50194b778.png" title="Jeiner types 'RETURN' in Boton de Mi Cuenta" width="1920"/>
+                <img src="e6fea9618cc02cebd7cb731201e9dc9a400fbd497b8e85cc75851eb625a99a43.png" title="When He tries to select the first result" width="1920"/>
+                <img src="e108184e29bb2e7cfff95910d0cc44f9928a93a86d600a0d8a0d52c2766183c0.png" title="Jeiner clicks on Boton de Mi Cuenta" width="1920"/>
+                <img src="13469e066a2c99c708d0a557d5d4e864b3efa5e10a107820447d9092d4c06316.png" title="Then He verifies that the book is available in the library" width="1920"/>
+                <img src="13469e066a2c99c708d0a557d5d4e864b3efa5e10a107820447d9092d4c06316.png" title="Then verify success search book: <span class='success-color'>SUCCESS</span>" width="1920"/>
+            </div>
+        </div>
+
+
+    </div>
+</div>
+<div id="beforefooter"></div>
+<div id="bottomfooter">
+    <span class="version">Serenity BDD version 1.9.9</span>
+</div>
+</body>
+</html>
